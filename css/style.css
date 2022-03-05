@@ -1,0 +1,67 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  background-image: url(../images/fundo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.header-nav ul{
+  display:flex;
+  float: right;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
+.header-nav li{
+  margin: 30px 10px;
+  list-style: none;
+}
+
+.description{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.perfil{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px 0;
+}
+
+.text-profile{
+  font-size: 35px;
+  color: #fff;
+}
+
+.text-profile p{
+  font-weight: 400;
+}
+
+/*----------------------------------fim do header-------------*/
+
+.presentation{
+  display: flex;
+  padding:20px ;
+  justify-content: space-evenly;
+  font-size: 25px;
+  color: #fff;
+}
+
+.presentation h2{
+  padding: 10px 0 15px 0;
+  font-weight: 700;
+}
+
+.presentation li{
+  font-weight: 550;
+}
